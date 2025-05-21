@@ -26,8 +26,8 @@ model Chat {
   title             String
   llamaCoderVersion String    @default("v2")
   shadcn            Boolean
-  messages          Message[]
   createdAt         DateTime  @default(now())
+  messages          Message[]
 }
 
 model Message {
@@ -35,9 +35,9 @@ model Message {
   role      String
   content   String
   chatId    String
-  chat      Chat     @relation(fields: [chatId], references: [id], onDelete: Cascade)
   position  Int
   createdAt DateTime @default(now())
+  chat      Chat     @relation(fields: [chatId], references: [id], onDelete: Cascade)
 
   @@index([chatId])
 }

@@ -17,7 +17,7 @@ export default function Header() {
         />
       </Link>
 
-      <div className="absolute right-3">
+      {/* <div className="absolute right-3">
         <a
           href="https://github.com/nutlope/llamacoder"
           target="_blank"
@@ -39,7 +39,7 @@ export default function Header() {
             <span className="font-medium">on GitHub</span>
           </div>
         </a>
-      </div>
+      </div> */}
     </header>
   );
 }

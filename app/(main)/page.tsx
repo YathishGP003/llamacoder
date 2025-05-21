@@ -359,7 +359,7 @@ export default function Home() {
           </div>
           <div className="flex space-x-4 pb-4 sm:pb-0">
             <Link
-              href="https://twitter.com/nutlope"
+              href="https://twitter.com"
               className="group"
               aria-label=""
             >
@@ -371,7 +371,7 @@ export default function Home() {
               </svg>
             </Link>
             <Link
-              href="https://github.com/Nutlope/llamacoder"
+              href="https://github.com"
               className="group"
               aria-label=""
             >

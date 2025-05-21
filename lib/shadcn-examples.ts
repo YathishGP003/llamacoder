@@ -95,7 +95,7 @@ export default function HealthcareLandingPage() {
                     </p>
                     <div className="flex items-center space-x-2">
                       <img
-                        src="github.com/nutlope.png"
+                        src="github.com/YathishGP003.png"
                         alt="Patient"
                         className="rounded-full"
                         width={40}
